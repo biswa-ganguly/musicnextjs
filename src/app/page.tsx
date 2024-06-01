@@ -1,7 +1,13 @@
+import FeatureSection from "@/components/FeatureSection";
+import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1 className=" text-center text-3xl">music</h1>
+    <main className="min-h-screen bg-black/[0.96] antialiaed bg-grid-white/[0.02] ">
+      
+      <HeroSection/>
+      <FeatureSection/>
+    </main>
   );
 }
